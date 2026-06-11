@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X, Download } from "lucide-react";
-import resumeAsset from "@/assets/Himanshu_Arora_Resume.docx.asset.json";
+import { RESUME_URL } from "@/lib/assets";
 
 const links = [
   { href: "#about", label: "About" },
@@ -63,7 +63,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3">
           <a
-            href={resumeAsset.url}
+            href={RESUME_URL}
             download="Himanshu_Arora_Resume.docx"
             className="btn-outline hidden md:inline-flex text-sm"
           >
@@ -93,7 +93,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href={resumeAsset.url}
+              href={RESUME_URL}
               download="Himanshu_Arora_Resume.docx"
               className="btn-outline text-sm w-fit"
             >

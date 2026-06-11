@@ -1,6 +1,6 @@
 import { Mail, Phone, Linkedin, Download, Send } from "lucide-react";
 import { SectionHeading, FadeIn } from "./Section";
-import resumeAsset from "@/assets/Himanshu_Arora_Resume.docx.asset.json";
+import { RESUME_URL } from "@/lib/assets";
 import { useState } from "react";
 
 export default function Contact() {
@@ -43,7 +43,7 @@ export default function Contact() {
                 </a>
               ))}
               <a
-                href={resumeAsset.url}
+                href={RESUME_URL}
                 download="Himanshu_Arora_Resume.docx"
                 className="btn-primary w-full justify-center"
               >
