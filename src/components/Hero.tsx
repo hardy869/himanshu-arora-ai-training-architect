@@ -14,7 +14,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="text-center lg:text-left"
         >
-          <div className="font-mono text-teal-400 text-sm mb-4">&lt;Hello World /&gt;</div>
+          
           <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
             Himanshu <span className="text-gradient">Arora</span>
           </h1>

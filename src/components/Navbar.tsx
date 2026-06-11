@@ -41,10 +41,8 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="font-mono text-lg font-bold">
-          <span className="text-teal-400">&lt;</span>
-          <span className="text-white">HA</span>
-          <span className="text-teal-400"> /&gt;</span>
+        <a href="#" className="font-mono text-lg font-bold text-white">
+          Himanshu Arora
         </a>
 
         <div className="hidden lg:flex items-center gap-8">
