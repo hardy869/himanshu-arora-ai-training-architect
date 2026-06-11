@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { Download, ArrowRight, Linkedin, Mail, Phone, Award, Briefcase, Calendar } from "lucide-react";
-import resumeAsset from "@/assets/Himanshu_Arora_Resume.docx.asset.json";
+import { RESUME_URL } from "@/lib/assets";
 
 export default function Hero() {
   return (
@@ -40,7 +40,7 @@ export default function Hero() {
             <a href="#projects" className="btn-primary">
               View My Work <ArrowRight size={18} />
             </a>
-            <a href={resumeAsset.url} download="Himanshu_Arora_Resume.docx" className="btn-outline">
+            <a href={RESUME_URL} download="Himanshu_Arora_Resume.docx" className="btn-outline">
               <Download size={18} /> Download Resume
             </a>
           </div>
